@@ -14,7 +14,7 @@ export const Login = () => {
     const submit=(e)=>{
         e.preventDefault();
         const login=async()=>{
-            if(mail=="admin"){
+            if(mail=="admin@gmail.com"){
                 if(pass=="admin"){
                     navigate("/admin/showplane")
                 }
