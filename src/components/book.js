@@ -70,7 +70,7 @@ return(
           <input type="text" className="addhotelinp" onChange={(e)=>setno(e.target.value)}  />
         </fieldset>
         
-        <button class="button-1" role="button">Add Centre</button>
+        <button class="button-1" role="button">Book</button>
         
       </form>
     </div>
