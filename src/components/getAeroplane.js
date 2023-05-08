@@ -58,8 +58,8 @@ export const GetAeroplanes = () => {
               <img className="img2" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/airplane-1819848-1544528.png?f=avif&w=256" alt=""/>
               <h2><b>{x.to}</b></h2>
               <p><b>Arrival</b>:{x.arrival}-<b>Departure</b>:{x.departure}</p>
-              <p><b>Date:</b>{x.startDate}----{x.endDate}</p>
-              <p><b>Price:</b>{x.price}</p>
+              <p><b>Date:</b>{x.startDate}`<----->`{x.endDate}</p>
+              <p><b>Price:</b>${x.price}</p>
               <p><b>Remaining:</b>{x.remaining}</p>
               </div>
       </NavLink>
