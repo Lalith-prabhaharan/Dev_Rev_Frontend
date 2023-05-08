@@ -13,7 +13,7 @@ export const Home = () => {
       <div className='containe'>
     <img src="https://wallpaperaccess.com/full/1470814.jpg"></img>
     <div className="text-overlay">
-    <h2 className='heading'>The airplane stays up because it doesn't have the time to fall.</h2>
+//     <h2 className='heading'>The airplane stays up because it doesn't have the time to fall.</h2>
     <p className='s-heading'>Use Code <b>FLYHIGH</b> for Flat 10% Discount</p>
     <button  onClick={view} className="home-but"> View Flights!!</button>
     </div>
