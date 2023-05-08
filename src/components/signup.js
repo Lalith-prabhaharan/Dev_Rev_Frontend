@@ -40,7 +40,7 @@ export const Signup = () => {
                 <div className="LoginFormInnerContainer">
                     <header className="header">Create Your Account</header>
                     <header className="subHeader">Welcome to <b>FLY HIGH!</b> Create your account</header>
-                    <p>Aldready Have an Account,  <Link to="/login">Sign in</Link></p>
+                    <p>Already Have an Account,  <Link to="/login">Sign in</Link></p>
                     <form>
                         <div className="inputContainer">
                             <label className="label" ><span>Name</span></label>
