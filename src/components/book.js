@@ -23,7 +23,7 @@ export const Book = () => {
     const submit=(e)=>{
         e.preventDefault();
         const addSlot=async()=>{
-            const response= axios.post("http://localhost:8000/api/bookplane/booking",{
+            const response= axios.post("https://cyan-cape-buffalo-suit.cyclic.app/api/bookplane/booking",{
             user:localStorage.getItem("username"),
             flight_id:id,
             name:name,

@@ -9,7 +9,7 @@ export const ShowBook = () => {
     console.log(id)
     console.log(typeof(id))
 
-    fetch(`http://localhost:8000/api/bookplane/getid/${id}`)
+    fetch(`https://cyan-cape-buffalo-suit.cyclic.app/api/bookplane/getid/${id}`)
     .then((res) => res.json())
     .then((response) => {
       if(response.length==0){alert("No such data is found")}

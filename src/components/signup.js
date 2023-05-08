@@ -14,7 +14,7 @@ export const Signup = () => {
         e.preventDefault();
         if(pass==cpass){
             const register=async()=>{
-                const response=await axios.post("http://localhost:8000/api/auth/signup",{
+                const response=await axios.post("https://cyan-cape-buffalo-suit.cyclic.app/api/auth/signup",{
                     username:name,
                     email:mail,
                     password:pass,

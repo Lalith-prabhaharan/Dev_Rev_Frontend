@@ -23,7 +23,7 @@ export const Login = () => {
                 }
             }
             else{
-            const response=await axios.post("http://localhost:8000/api/auth/login",{
+            const response=await axios.post("https://cyan-cape-buffalo-suit.cyclic.app/api/auth/login",{
                 email:mail,
                 password:pass,
             })

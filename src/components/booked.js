@@ -6,7 +6,7 @@ export const Booked = () => {
     const auth=useAuth()
     const[list,setList]=useState([]);
     const showmybook=() => {
-    axios.get("http://localhost:8000/api/bookplane/get")
+    axios.get("https://cyan-cape-buffalo-suit.cyclic.app/api/bookplane/get")
     .then((response)=>{
       const data=response.data.data
       const filter=data.filter((element)=>element.user=== localStorage.getItem("username") )
