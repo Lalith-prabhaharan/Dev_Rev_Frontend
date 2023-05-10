@@ -22,6 +22,7 @@ export const Book = () => {
  console.log(name)
     const submit=(e)=>{
         e.preventDefault();
+      if(data.remaining-nop>=0){
         const addSlot=async()=>{
             const response= axios.post("https://cyan-cape-buffalo-suit.cyclic.app/api/bookplane/booking",{
             user:localStorage.getItem("username"),
@@ -41,6 +42,10 @@ export const Book = () => {
             console.log(err))
         }
         addSlot();
+      }
+      else{
+        alert("Cannot book due to less seat count");
+      }
   }
 return(
     <div>
